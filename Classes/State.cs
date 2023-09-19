@@ -19,6 +19,11 @@
             return (Get, Set);
         }
 
+        public (Func<T?>, Action<T>) CreateState()
+        {
+            return (Get, Set);
+        }
+
         private void Set(T t)
         {
             v = t;
