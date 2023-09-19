@@ -2,7 +2,7 @@
 
 namespace Csharp_Deconstructing_Tuples
 {
-    internal class Program
+    internal class State_Example
     {
         static void Main(string[] args)
         {

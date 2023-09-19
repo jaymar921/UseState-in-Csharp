@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp Deconstructing Tuples", "Csharp Deconstructing Tuples.csproj", "{DC245758-732E-4113-AAB7-4A5EEBA6474B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Csharp Deconstructing Tuples", "Csharp Deconstructing Tuples.csproj", "{DC245758-732E-4113-AAB7-4A5EEBA6474B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaymar.CSharp.UseState", "..\Jaymar.CSharp.UseState\Jaymar.CSharp.UseState.csproj", "{B57C0550-6DFE-4F59-87EA-7A1BFC0C2C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC245758-732E-4113-AAB7-4A5EEBA6474B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC245758-732E-4113-AAB7-4A5EEBA6474B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC245758-732E-4113-AAB7-4A5EEBA6474B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57C0550-6DFE-4F59-87EA-7A1BFC0C2C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57C0550-6DFE-4F59-87EA-7A1BFC0C2C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57C0550-6DFE-4F59-87EA-7A1BFC0C2C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57C0550-6DFE-4F59-87EA-7A1BFC0C2C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
