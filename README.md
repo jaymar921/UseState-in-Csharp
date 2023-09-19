@@ -55,3 +55,37 @@ setAge(22);
 Console.WriteLine("Hello " + name());
 Console.WriteLine("You are " + age() + "years old as of 2023");
 ```
+
+## Installing Dependency
+
+<p align="center">
+    <span style="color:orange;font-weight:700;font-size:20px;">
+        <img src="https://www.nuget.org/Content/gallery/img/logo-header.svg" width='200'>
+    </span>
+    <br/>
+    <a style="color:greenyellow;text-decoration:underline;" href="https://www.nuget.org/packages/Jaymar.CSharp.UseState/">Jaymar.CSharp.UseState</a>
+</p>
+
+```
+.NET CLI
+> dotnet add package Jaymar.CSharp.UseState --version 1.0.0
+
+Package Manager
+PM> NuGet\Install-Package Jaymar.CSharp.UseState -Version 1.0.0
+
+PackageReference
+<PackageReference Include="Jaymar.CSharp.UseState" Version="1.0.0" />
+
+Packet CLI
+> paket add Jaymar.CSharp.UseState --version 1.0.0
+
+Script & Interactive
+> #r "nuget: Jaymar.CSharp.UseState, 1.0.0"
+
+Cake
+// Install Jaymar.CSharp.UseState as a Cake Addin
+#addin nuget:?package=Jaymar.CSharp.UseState&version=1.0.0
+
+// Install Jaymar.CSharp.UseState as a Cake Tool
+#tool nuget:?package=Jaymar.CSharp.UseState&version=1.0.0
+```
