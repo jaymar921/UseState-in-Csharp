@@ -12,7 +12,7 @@ namespace Csharp_Deconstructing_Tuples
                 Creating a state
                 
                      getter    setter
-                var (Func<T>, Funct<T>) = new State<T>().CreateState();
+                var (Func<T>, Action<T>) = new State<T>().CreateState();
 
                 example:
                 var (name, setName) = new State<string>().CreateState();
