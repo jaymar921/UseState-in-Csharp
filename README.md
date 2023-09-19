@@ -43,6 +43,15 @@ Console.WriteLine(message.Invoke());  // should print "Hello World"
 ### Using Multiple States
 Now that you know how to create a single state, you can create multiple states of your choice
 ```cs
+// creating the getters and setters States
 var (name, setName) = new State<string>().CreateState();
 var (age, setAge)   = new State<int>().CreateState();
+
+// calling the State setters
+setName("Jayharron");
+setAge(22);
+
+// invoking the State getters
+Console.WriteLine("Hello " + name());
+Console.WriteLine("You are " + age() + "years old as of 2023");
 ```
